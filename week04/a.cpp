@@ -78,7 +78,6 @@ struct BST {
 		for (int i = 0; i < tab; i++) putchar('\t');
 		printf("R ");
 		print(cur->right, tab + 1);
-
 	}
 
 	void print() {
